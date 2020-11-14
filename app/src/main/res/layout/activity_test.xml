@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gamebackground">
+
+    <LinearLayout
+        android:weightSum="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/Line1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:src="@drawable/line1">
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/Line5"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:src="@drawable/line5">
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:weightSum="3"
+        android:layout_marginTop="175dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line2">
+        </ImageView>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line2">
+        </ImageView>
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line2">
+        </ImageView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bomb"
+        android:layout_width="232dp"
+        android:layout_height="254dp"
+        android:src="@drawable/bomb"
+        android:layout_centerInParent="true">
+    </ImageView>
+
+</RelativeLayout>

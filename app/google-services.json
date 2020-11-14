@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "223168830623",
+    "firebase_url": "https://bombservive.firebaseio.com",
+    "project_id": "bombservive",
+    "storage_bucket": "bombservive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223168830623:android:209e43105213e0673816aa",
+        "android_client_info": {
+          "package_name": "com.example.bombservive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223168830623-iqa94uavu7bq764h3uoegdcig6qqvivm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bombservive",
+            "certificate_hash": "6c0fde5318a6e425afa6f798e80ba8d0fa8a937f"
+          }
+        },
+        {
+          "client_id": "223168830623-f4cqcf4aqj8j21tepdnc3oltt3jrlefq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIM9XXQzmTxPa3Up-sMGNw8e1u45yHFFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223168830623-f4cqcf4aqj8j21tepdnc3oltt3jrlefq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
